@@ -16,33 +16,17 @@ body {
   border-radius: 10px;
   position: relative;
 }
-div::before {
+.left-top {
   /* content: "\2660"; */
   position: absolute;
   top: 0;
   left: 0;
   font-size: 80px;
 }
-div::after {
+.bottom-right {
   /* content: "\2660"; */
   position: absolute;
   bottom: 20px;
   right: 20px;
   font-size: 80px;
-}
-div::spades:before,
-div::spades:after {
-  content: "\2660";
-}
-div::club:before,
-div::club:after {
-  content: "\2663";
-}
-div::heart:before,
-div::heart:after {
-  content: "\2665";
-}
-div::dimond:before,
-div::dimond:after {
-  content: "\2666";
 }
